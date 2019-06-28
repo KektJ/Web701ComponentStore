@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentStore", "ComponentStore\ComponentStore.csproj", "{DF6362A7-19BA-4CCE-85F4-74F37D39F2A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{1CC0CFD0-55FA-4581-AC4C-BB3E26F38DAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreSelfHost", "StoreSelfHost\StoreSelfHost.csproj", "{D5141204-C5AC-403D-8D1F-97A22E7F72D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF6362A7-19BA-4CCE-85F4-74F37D39F2A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6362A7-19BA-4CCE-85F4-74F37D39F2A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6362A7-19BA-4CCE-85F4-74F37D39F2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6362A7-19BA-4CCE-85F4-74F37D39F2A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5141204-C5AC-403D-8D1F-97A22E7F72D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5141204-C5AC-403D-8D1F-97A22E7F72D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5141204-C5AC-403D-8D1F-97A22E7F72D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5141204-C5AC-403D-8D1F-97A22E7F72D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5141204-C5AC-403D-8D1F-97A22E7F72D5} = {1CC0CFD0-55FA-4581-AC4C-BB3E26F38DAB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F1E40DC-9619-4E22-BAC2-3566016C4F32}
+	EndGlobalSection
+EndGlobal
